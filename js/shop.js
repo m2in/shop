@@ -41,7 +41,7 @@ window.onload = function () {
     let out = '';
     for (var i = 0; i < data.length; i++) {
       if (data[i]['gsx$show']['$t'] != 0) {
-        out += `<div class="col-lg-3 col-md-3 col-sm-2 text-center">`;
+        out += `<div class="col-lg-3 col-md-3 col-sm-6 text-center">`;
         out += `<div class="goods">`;
         out += `<h3>${data[i]['gsx$name']['$t']}</h3>`;
         out += `<img src="${data[i]['gsx$image']['$t']}" alt="">`;
