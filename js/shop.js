@@ -25,7 +25,8 @@ window.onload = function () {
     xhr.send();
   }
 
-  getJSON('https://spreadsheets.google.com/feeds/list/13pRh-mSnVw08jGoAnQCMfB_IzhrtCDPNzRTaocmhZ6k/od6/public/values?alt=json', function (err, data) {
+//   getJSON('https://spreadsheets.google.com/feeds/list/13pRh-mSnVw08jGoAnQCMfB_IzhrtCDPNzRTaocmhZ6k/od6/public/values?alt=json', function (err, data) {
+  getJSON('https://m2in.github.io/shop/js/miShop.xlsx', function (err, data) {
     console.log(data);
     if (err !== null) {
       console.log('Error: ' + err);
